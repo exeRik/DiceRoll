@@ -39,7 +39,7 @@ btnRoll.addEventListener('click', function () {
         let randomNo = Math.trunc(Math.random() * 6) + 1;
 
         dice.classList.remove('hidden');
-        dice.src = `DiceRoll/DiceRoll/Images/dice-1.png`;
+        dice.src = `Diceroll/Images/dice-${randomNo}.png`;
         
 
         if (randomNo !== 1) {
