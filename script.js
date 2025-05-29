@@ -41,7 +41,7 @@ btnRoll.addEventListener('click', function () {
     console.log(randomNo);
     // display dice roll images
     dice.classList.remove('hidden');
-    dice.src =`Images/dice-${randomNo}.png`;
+    dice.src =`DiceRoll/Images/dice-${randomNo}.png`;
     // // check for 1
     if(randomNo!= 1)
     {
