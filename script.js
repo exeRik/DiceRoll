@@ -8,7 +8,7 @@ let btnRoll = document.querySelector('.btn--roll')
 let btnHold = document.querySelector('.btn--hold')
 let btnNew = document.querySelector('.btn--new')
 
-let player0 = document.querySelector('.player--0 ')
+let player0 = document.querySelector('.player--0')
 let player1 = document.querySelector('.player--1')
 let activePlayer = document.querySelector('.player--active')
 // let currentScore0 = document.querySelector('#current--0')
